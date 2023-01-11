@@ -20,7 +20,7 @@ namespace Fundamentos
             //SE REPRESENTAN DE FORMA GRAFICA Y AYUDAN AL PROGRAMADOR
             this.txtName.TextAlign = HorizontalAlignment.Center;
             this.BackColor = Color.Beige;
-
+            this.btnName.BackColor = Color.LightGreen;
         }
     }
 }
