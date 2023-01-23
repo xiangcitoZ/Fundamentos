@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentos", "Fundamentos\Fundamentos.csproj", "{CDE65FFB-53B7-4B5D-BA32-036A053618F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos", "Fundamentos\Fundamentos.csproj", "{CDE65FFB-53B7-4B5D-BA32-036A053618F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaClases", "LibreriaClases\LibreriaClases.csproj", "{943FCDEC-85FC-40D7-8105-9E65B7FDDB9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C951EBC-17CF-45D3-8814-B3C212B21B36}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{CDE65FFB-53B7-4B5D-BA32-036A053618F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDE65FFB-53B7-4B5D-BA32-036A053618F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDE65FFB-53B7-4B5D-BA32-036A053618F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943FCDEC-85FC-40D7-8105-9E65B7FDDB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943FCDEC-85FC-40D7-8105-9E65B7FDDB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943FCDEC-85FC-40D7-8105-9E65B7FDDB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943FCDEC-85FC-40D7-8105-9E65B7FDDB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
